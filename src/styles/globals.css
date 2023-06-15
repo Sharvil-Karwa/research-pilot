@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    body {
+        @apply bg-gradient-to-b min-h-screen from-gray-900 to-purple-900 text-white;
+    }
+
+    .innerCard {
+        @apply rounded-md bg-[#140E1A] border border-[#585656] px-4 py-5 flex flex-col gap-y-4 hover:border-white
+    }
+}

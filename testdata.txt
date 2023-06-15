@@ -1,0 +1,65 @@
+1. Problem Statement: The problem is that there is a need for a user-friendly and efficient e-commerce website that provides a seamless shopping experience to customers and facilitates online transactions securely.
+
+2. Questionnaire for Research:
+   a. What are the key pain points users face while shopping online?
+   b. What features are most important to users when using an e-commerce website?
+   c. How do users typically discover new products while shopping online?
+   d. What are the preferred payment options for users during online transactions?
+   e. How do users expect their personal information to be protected during online shopping?
+
+3. Research Document Links:
+   - [E-commerce User Experience Best Practices](https://www.nngroup.com/articles/e-commerce-user-experience/)
+   - [E-commerce Trends and Statistics](https://www.bigcommerce.com/blog/ecommerce-trends/)
+   - [The Impact of Mobile Commerce on E-commerce](https://www.emarketer.com/content/mobile-commerce-on-rise-worldwide)
+
+4. Unique Selling Proposition (USP): Our e-commerce website offers a wide range of high-quality products, a seamless and secure shopping experience, personalized product recommendations, and fast delivery, all backed by excellent customer service.
+
+5. User Persona:
+   Name: Sarah Thompson
+   Age: 32
+   Occupation: Marketing Executive
+   Shopping Habits: Tech-savvy, prefers online shopping due to time constraints
+   Goals: Find quality products easily, get personalized recommendations, and have a smooth checkout process
+
+6. User Journey Mapping:
+   - User lands on the homepage, sees featured products, and browses different categories.
+   - User selects a product and views its details, including images, descriptions, and customer reviews.
+   - User adds the product to the cart and proceeds to checkout.
+   - User provides shipping and payment information securely.
+   - User reviews the order summary and confirms the purchase.
+   - User receives an order confirmation and tracking details via email.
+
+7. Target Audience: The target audience for the e-commerce website includes tech-savvy individuals aged 18-45 who prefer convenient online shopping and are looking for a wide range of products with a user-friendly interface.
+
+8. Tech Stack:
+   - Front-end: HTML5, CSS3, JavaScript, React.js
+   - Back-end: Node.js, Express.js
+   - Database: MongoDB
+   - Payment Gateway Integration: Stripe or PayPal
+   - Hosting: Amazon Web Services (AWS) or Google Cloud Platform (GCP)
+
+9. Code Snippets:
+   a. Adding a product to the cart:
+   javascript
+   const addToCart = (productId) => {
+     // Check if the product is already in the cart
+     const existingProduct = cart.find(item => item.id === productId);
+
+     if (existingProduct) {
+       // Increment the quantity if the product is already in the cart
+       const updatedCart = cart.map(item => {
+         if (item.id === productId) {
+           return { ...item, quantity: item.quantity + 1 };
+         }
+         return item;
+       });
+
+       setCart(updatedCart);
+     } else {
+       // Add the product to the cart with quantity 1
+       const product = products.find(item => item.id === productId);
+       const newCartItem = { ...product, quantity: 1 };
+
+       setCart([...cart, newCartItem]);
+     }
+   };

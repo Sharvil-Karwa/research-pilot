@@ -1,0 +1,159 @@
+{
+  "ideas": {
+    "id": "cmpl-7N7UI0oqmoRa5hy6xAyfce15MLFFz",
+    "object": "text_completion",
+    "created": 1685744682,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\n1. An online platform that allows customers to design their own custom cricket jersey and order it directly from the ecommerce shop. \n<<<->>>\n2. A mobile app that allows customers to browse through a variety of custom cricket jerseys and order them directly from the ecommerce shop. \n<<<->>>\n3. A website that allows customers to customize their own cricket jersey with a variety of colors, logos, and designs, and then order it",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 30,
+      "completion_tokens": 100,
+      "total_tokens": 130
+    }
+  },
+  "PS": {
+    "id": "cmpl-7N53eF2QzYrfB2zoeMJjTxCqkNSga",
+    "object": "text_completion",
+    "created": 1685735342,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\nThe goal of this project is to create an e-commerce website that allows customers to purchase custom cricket merchandise. The website should provide a user-friendly interface for customers to browse and purchase products, as well as a secure payment system to ensure customer data is protected. Additionally, the website should be optimized for mobile devices to ensure customers can access the website from any device.",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 21,
+      "completion_tokens": 76,
+      "total_tokens": 97
+    }
+  },
+
+  "MR": {
+    "id": "cmpl-7N53mgLQD7YwlbcYRL0sQBanceOYB",
+    "object": "text_completion",
+    "created": 1685735350,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\nA market research for an e-commerce website for custom cricket merchandise should include an analysis of the target market, competitors, and potential customer needs. The research should also consider the current trends in the cricket merchandise industry, such as the types of products being offered, pricing, and customer preferences. Additionally, the research should assess the potential for growth in the industry, as well as any potential risks associated with launching a new e-commerce website. Finally, the research should include a review of the",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 24,
+      "completion_tokens": 100,
+      "total_tokens": 124
+    }
+  },
+
+  "PR": {
+    "id": "cmpl-7N53zj9gBNRND6anmrfZ4mrVHrnTa",
+    "object": "text_completion",
+    "created": 1685735363,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\n1. What type of custom cricket merchandise do you offer on your e-commerce website?\n2. How easy is it to navigate and use your e-commerce website?\n3. Are there any special features or services that make your e-commerce website stand out from other similar websites?\n4. How secure is the payment system on your e-commerce website?\n5. Are there any discounts or promotions available when purchasing custom cricket merchandise from your e-commerce website?\n",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 20,
+      "completion_tokens": 100,
+      "total_tokens": 120
+    }
+  },
+
+  "SR": {
+    "id": "cmpl-7N546twpTnsjr0Ncsn2TYr2mh0eEU",
+    "object": "text_completion",
+    "created": 1685735370,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\n1. A Study on the Impact of E-Commerce Websites on Custom Cricket Merchandise: https://www.ijser.org/researchpaper/A-Study-on-the-Impact-of-E-Commerce-Websites-on-Custom-Cricket-Merchandise.pdf\n\n2. The Impact of E-Commerce on Custom Cricket Merchandise: https://www.sciencedirect.com/science/article/pii/",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 14,
+      "completion_tokens": 100,
+      "total_tokens": 114
+    }
+  },
+
+  "UP": {
+    "id": "cmpl-7N54I5gE3Z0nKhROlZL6iHHkgoPkB",
+    "object": "text_completion",
+    "created": 1685735382,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\nName: Rajesh\nAge: 32\nGender: Male\nLocation: Mumbai, India\nOccupation: IT Consultant\nIncome: $60,000/year\nFamily: Married with two children\nGoals: Rajesh is looking for a reliable e-commerce website to purchase custom cricket merchandise for his two children. He wants to find a website that offers quality products at an affordable price.\n\nMotivations: Rajesh is motivated by finding the best deals and",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 17,
+      "completion_tokens": 100,
+      "total_tokens": 117
+    }
+  },
+  "IM": {
+    "id": "cmpl-7N54NI5Vuogl2zSWvafCeqSKmo4HZ",
+    "object": "text_completion",
+    "created": 1685735387,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\nThe implementation of an e-commerce website for custom cricket merchandise would include the following features:\n\n1. A user-friendly interface that allows customers to easily browse and purchase products.\n\n2. A secure payment gateway to ensure safe and secure transactions.\n\n3. An inventory management system to track stock levels and ensure timely delivery of orders.\n\n4. A customer service portal to provide support and answer queries.\n\n5. A product customization tool to allow customers to",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19,
+      "completion_tokens": 100,
+      "total_tokens": 119
+    }
+  },
+
+  "TS": {
+    "id": "cmpl-7N54WkKbO2i2Dbm8sLx0vvtqn4oaD",
+    "object": "text_completion",
+    "created": 1685735396,
+    "model": "text-davinci-003",
+    "choices": [
+      {
+        "text": "\n\nFront-end: \n• HTML5\n• CSS3\n• JavaScript\n• React.js\n• Bootstrap\n\nBack-end: \n• Node.js\n• Express.js\n• MongoDB\n• Firebase\n\nPayment Gateway: \n• Stripe\n• PayPal\n\nCloud Platform: \n• Amazon Web Services (AWS)\n\nOther Tools: \n• Git\n• NPM\n• Webpack",
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 20,
+      "completion_tokens": 98,
+      "total_tokens": 118
+    }
+  }
+}
